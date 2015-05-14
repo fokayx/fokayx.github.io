@@ -11,3 +11,8 @@ github_username:  fokayx
 
 # Build settings
 markdown: kramdown
+#
+#redcarpet:
+#  extensions:[]
+#
+#highlighter: pygments

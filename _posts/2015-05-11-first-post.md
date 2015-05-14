@@ -4,12 +4,12 @@ title: Welcome to Ruby!
 ---
 Let's to be Rubyist.♥
 
+~~~ruby
+irb
 
-    irb
+>> puts "Hello Ruby World!"
 
-    >> puts "Hello Ruby World!"
+Hello Ruby World!
 
-    Hello Ruby World!
-
-    => nil
-
+=> nil
+~~~

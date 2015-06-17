@@ -3,7 +3,7 @@ layout: post
 title: Ruby Explained - Objects and Methods @Erik Trautman
 ---
 
-##Ruby Explained: Objects and Methods @Erik Trautman
+### 物件與方法 [Ruby Explained: Objects and Methods](http://www.eriktrautman.com/posts/ruby-explained-objects-and-methods)
 
 "Everything in Ruby is an Object" is something you'll hear rather frequently. "Pretty much everything else is a method" could also be said. 
 
@@ -12,6 +12,7 @@ Ruby 所有東西都是物件，也可以這麼說，幾乎一切都是方法。
 今天的目標是能初步了解Ruby的核心概念。在`Ruby`中所有東西都是物件，每一個物件都有一個類別，每個類別則付予給物件許多方法，可以用來做點什麼事，或者問些問題。物件導向(object-oriented)給予 Ruby超乎想像的權力，讓程式人員的人生輕鬆許多。
 
 思考一下：在Ruby中的任何"東西"，不只是眼睛所看到的那樣，例如數字"12"，對Ruby來說"12"除了是個數字，他還是個物件，能讓你做許多有趣的操作，例如進行加減乘除或者問他問題：
+
 ```
 > 12.class
 => Fixnum
@@ -24,13 +25,16 @@ Ruby 所有東西都是物件，也可以這麼說，幾乎一切都是方法。
 ```
 
 Ruby賦予所有物件(Objects)一大串的方法(Methods)，方法的呼叫是：`物件.方法名(object.methodname)`，例如：使用`methods`這個方法，就能取得所有和該物件有關的方法。
+
 ```
 > 12345.methods
 => #就會回傳"12345"這個物件能使用的所有方法
 ```
+
 "12345"的所有方法中也包含基本的運算符號`"+"、"-"、"*"、"/"`，所以原本也得寫成`12345.+123`或者`12345./5`，感覺有點囉嗦，還好Ruby做了簡化，使用基本運算符號可以省略"."，直接輸入`12345+123`也是可以運行的。
 
 有些屬於檢查是否/真假(true/false)的方法，通常會在方法名最後加上一個問號(?)，例如：`is_a?`，這個方法是用於檢查該物件是否是某個類型。`::class`則會告訴你該物件屬於何種類別(class)：
+
 ```
 > 1.is_a?Integer
 => true   # 1是整數嗎?
@@ -46,6 +50,7 @@ Ruby賦予所有物件(Objects)一大串的方法(Methods)，方法的呼叫是�
 > "hihi".class
 => String
 ```
+
 像`is_a?`、`::class`這一類會直接回覆給你關於物件本身訊息的方法，稱為反映式方法(Reflection Methods)。
 
 
@@ -54,6 +59,7 @@ Ruby賦予所有物件(Objects)一大串的方法(Methods)，方法的呼叫是�
 方法就是一些函數指令，也可以當他是個黑箱，你把左邊的東西放進去，搖一搖，然後右邊就會跑出些東西來。每一個方法都會回傳點什麼，就算是沒東西，也會跟你說聲這是`nil`。
 
 有些方法的"副作用"比他回傳的結果要有用的許多，例如：`puts`，當你在`IRB`中輸入`> puts "hi"`，這個`puts`方法會先產生副作用：印出輸入的`字串("hi")`，最後再回傳`=> nil`。
+
 ```
 > puts"hi"
 hi
@@ -71,6 +77,7 @@ hi
 - Bang Methods(Methods!)
 
 Bang Methods是指`"!"`結尾的方法，使用之後會直接更改原物件的值，如：`sort!`。驚嘆號是要提醒你注意：你正在危險的範圍中, 必須小心使用。記住當你在IRB中使用一個普通的方法，會回傳一個結果，並保留原本的物件，但是Bang Methods會覆寫原本的物件，具有不可逆的破壞性。
+
 ```
 > my_numbers = [1, 5, 3, 2]
 => [1, 5, 3, 2]
@@ -128,6 +135,7 @@ hello!
 ```
 
 輸入值能不能什麼都沒有是個空值呢?要是方法中需要個輸入值(inputs)，但卻什麼都沒有怎麼辦呢?很簡單，只要先指派好預設值，一切就沒問題。
+
 ```
 > def speak(words="shhhh")
 >   puts words
@@ -139,6 +147,7 @@ shhhh
 ```
 
 ========
+
 Ruby Explained是用"In-Plain-Engilish"來介紹Ruby的核心概念，這些概念也常見於其他的介紹中，不過在Erik Trautman這裡是免費而且儘量的淺顯易懂。
 
 Erik Trautman說自己在學習新東西的時候，他希望有人能把他當做五歲小孩，為他進行解釋，Erik認為這樣是最好的學習方法，而且能避免錯失任何東西。

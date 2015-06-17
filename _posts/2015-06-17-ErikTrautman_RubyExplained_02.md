@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ruby Explained: Objects and Methods @Erik Trautman
+title: Ruby Explained - Objects and Methods @Erik Trautman
 ---
 
 ##Ruby Explained: Objects and Methods @Erik Trautman

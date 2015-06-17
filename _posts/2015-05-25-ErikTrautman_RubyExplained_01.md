@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Ruby Explained. Numbers, Operators and Expressions @ErikTrautman
+title: Ruby Explained: Numbers, Operators and Expressions @ErikTrautman
 ---
-
-##Ruby Explained: Numbers, Operators and Expressions @ErikTrautman
 
 使用Ruby進行數學運算的時候，運算的結果會和輸入數值的類型相同。也就是說如果以2個整數相除，相除的結果也會是整數。
 

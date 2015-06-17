@@ -3,7 +3,8 @@ layout: post
 title: Ruby Explained - Objects and Methods @Erik Trautman
 ---
 
-### 物件與方法 [Ruby Explained: Objects and Methods](http://www.eriktrautman.com/posts/ruby-explained-objects-and-methods)
+### 物件與方法 
+> [Ruby Explained: Objects and Methods](http://www.eriktrautman.com/posts/ruby-explained-objects-and-methods)
 
 "Everything in Ruby is an Object" is something you'll hear rather frequently. "Pretty much everything else is a method" could also be said. 
 
@@ -146,7 +147,7 @@ shhhh
 => nil
 ```
 
-========
+- - -
 
 Ruby Explained是用"In-Plain-Engilish"來介紹Ruby的核心概念，這些概念也常見於其他的介紹中，不過在Erik Trautman這裡是免費而且儘量的淺顯易懂。
 

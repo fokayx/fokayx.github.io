@@ -3,7 +3,8 @@ layout: post
 title: Ruby Explained - Numbers, Operators and Expressions @ErikTrautman
 ---
 
-### 數字、運算子、表達式 [Ruby Explained - Numbers, Operators and Expressions](http://www.eriktrautman.com/posts/ruby-explained-numbers-operators-and-expressions)
+### 數字、運算子、表達式 
+> [Ruby Explained - Numbers, Operators and Expressions](http://www.eriktrautman.com/posts/ruby-explained-numbers-operators-and-expressions)
 
 使用Ruby進行數學運算的時候，運算的結果會和輸入數值的類型相同。也就是說如果以2個整數相除，相除的結果也會是整數。
 
@@ -59,7 +60,7 @@ title: Ruby Explained - Numbers, Operators and Expressions @ErikTrautman
 	=> true
 
 
-=========
+- - -
 
 Ruby Explained是用"In-Plain-Engilish"來介紹Ruby的核心概念，這些概念也常見於其他的介紹中，不過在Erik Trautman這裡是免費而且儘量的淺顯易懂。
 

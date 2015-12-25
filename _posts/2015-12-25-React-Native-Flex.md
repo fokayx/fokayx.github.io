@@ -58,7 +58,7 @@ var styles = {
 
 ## React Native 與 CSS flex
 
-在 React Native 的 UI 佈局主要是使用 `flex` 這個屬性，因為 flex 有伸縮自如的特性，非常適合用於螢幕尺寸多樣化的移動裝置，flex 多是設定在 flex container 上，也就是包在內容項目外的那一層，如有 flex item 特殊需求再進行個別的設定。目前 React Native 只支援 CSS Flex 部份的屬性設定，以下為目前能夠使用的屬性：
+在 React Native 的 UI 佈局主要是使用 `flex` 這個屬性，因為 flex 有伸縮自如的特性，非常適合用於螢幕尺寸多樣化的移動裝置，flex 的屬性多是設定在 flex container 上，也就加在包住 flex items 內容項目外的那一層'容器'上，如有 flex item 特殊需求再進行個別的設定。目前 React Native 只支援 CSS Flex 部份的屬性設定，以下為目前能夠使用的屬性：
 
 - flexDirection
 

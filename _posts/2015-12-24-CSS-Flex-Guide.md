@@ -206,4 +206,14 @@ align-self 可針對個別的 flex item 設定對齊方式，改變 flex contain
 
 Note: flex item 對於 `float`、`clear`、`vertical-align` 這幾個傢伙是沒有感覺的，不會有任何反應。
 
-以上是目前對 CSS flex 屬性設定的說明，由於 flex 在空間佈局和內容對齊有相當彈性的設計，非常適合用於現在多元裝置和不同螢幕尺寸大小間的響應式設計，在 React Native 中也是採用 flex 來做 UI 的配置，這一部份在下篇文章會進行說明。
+以上是目前對 CSS flex 屬性設定的說明，由於 flex 在空間佈局和內容對齊有相當彈性的設計，非常適合用於現在多元裝置和不同螢幕尺寸大小間的響應式設計，在 React Native 中也是採用 flex 來做 UI 的配置，這一部份在下篇 [React Native UI 佈局與 CSS Flex](/2015/12/25/React-Native-Flex.html)會進行說明。
+
+-------------------------
+
+參考資料：
+
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+[CSS Flexible Box Layout Module Level 1](http://www.w3.org/TR/css3-flexbox/#box-model)
+
+[深入解析 CSS Flexbox](http://www.oxxostudio.tw/articles/201501/css-flexbox.html)

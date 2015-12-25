@@ -140,6 +140,10 @@ Note: 只有一行時，這個屬性沒有作用；
 
 order 屬性用來控制 flex items 出現在 flex container 的順序。數字越小，出現次序越前面。數字相同，則照排列出現。
 
+下圖中 `4` 在 HTML 的結構上是排於 `3` 之後，應該為圖中 Original 的排列次序；在 flex item 上加了 `order` 屬性就可以更改原本顯示的順序。
+
+![itemOrder](/assets/2016-12-24/item-order.jpg)
+
 ```
 .item {
   order: <integer>;

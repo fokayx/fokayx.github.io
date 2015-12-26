@@ -2,7 +2,7 @@
 layout: post
 title: CSS Flex 屬性設定說明
 ---
-# CSS - Flex 屬性設定說明
+## CSS - Flex 屬性設定說明
 
 flex 提供 UI 的空間佈局與內容項目的對齊設定，對於響應式的設計提供另一種彈性的選擇。
 

@@ -60,7 +60,7 @@ function notifyMe() {
       if (permission === "granted") {
         var options = {
               body: "This is the body of the notification",
-              icon: "/assets/fokayx.jpg",
+              icon: "/assets/image/fokayx.jpg",
               dir : "ltr"
           };
         var notification = new Notification("Hi there",options);

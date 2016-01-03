@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Apple WWDC 2015: Bitcode
+title: Apple WWDC 2015 Bitcode
 ---
 
 ## WWDC 2015: Bitcode

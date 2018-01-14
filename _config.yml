@@ -1,20 +1,91 @@
-# Site settings
-title: Fokayx, a Ruby Nerd. 
-email: fokayx@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  From Novice Rubyist to Ruby Diablo.<br>
-  從奶油桂花手到暗黑破壞神的紅寶石之路
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://fokayx.github.io" # the base hostname & protocol for your site
-twitter_username: fokayx
-github_username:  fokayx
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://fokayx.github.io"
 
-# Build settings
-kramdown:
-  input: GFM
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: KKnow
+  avatar: assets/img/fokayx.jpg
+  favicon: assets/favicon.ico
+  gravatar: # Email MD5 hash
+  description: "A website with blog posts and pages" # used by search engines
 
-#
-#redcarpet:
-#  extensions:[]
-#
-#highlighter: pygments
+  # Header and footer text
+  header_text: > #two or three lines to describe your site
+     <p>OK 好</p>
+  header_text_feature_image: assets/img/pexels/RG_NameSticker-19.png
+  footer_text: >
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+
+  # Icons
+  rss: true
+  email_address: 'fokayx@gmail.com'
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: "fokayx"
+  google_plus:
+  instagram:
+  keybase:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "fokayx"
+  vimeo:
+  wordpress:
+  youtube:
+
+  # Scripts / Features
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+  portfolio: false
+  search: true
+  tags: true
+
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: true
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-seo-tag]
+theme: type-on-strap # If using the theme as a jekyll theme gem
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]

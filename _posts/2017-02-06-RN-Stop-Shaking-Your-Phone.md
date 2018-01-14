@@ -1,6 +1,9 @@
 ---
 layout: post
 title: React Native：停止搖晃你的手機啦!
+feature-img: "assets/img/pexels/desk-messy.jpeg"
+thumbnail: "assets/img/thumbnails/desk-messy.jpeg"
+tag: [react_native, android, mac]
 ---
 身為一個 React Native 的開發者一定了解在實機測試過程中，可能會認為自己不是在寫 APP 而是在手搖飲料店打工，因為每次做一個段落要看結果，就必須搖動手機召喚 `Developer Menu`，進行一個重新載入 APP 的動作，由於每隻 Android 手機對搖晃的感應不同會影響搖出 Menu 的難易程度，有時候會難搖到讓人想摔手機，而且搖著搖著，接口好像默默地就變鬆了，容易造成鬆脫斷線，影響 MAC 和手機間的連線品質，諸多種種確實讓人感到不便，下面介紹一個讓 React Native 開發人生變得輕鬆一點的方法。
 
@@ -64,7 +67,7 @@ title: React Native：停止搖晃你的手機啦!
 
 - 只在特定應用程式中使用 Service 快捷鍵
 
-  在一開始 Automator 設定中，Service receives 如果是選擇 `any application`，在有提供 Services 的應用程式中都能用快捷鍵進行呼叫 Developer Menu，如果這邊選擇了某一個特定的應用程式，就表示設定的 Service 只在那個應用程式中可以使用。  
+  在一開始 Automator 設定中，Service receives 如果是選擇 `any application`，在有提供 Services 的應用程式中都能用快捷鍵進行呼叫 Developer Menu，如果這邊選擇了某一個特定的應用程式，就表示設定的 Service 只在那個應用程式中可以使用。
 
   ![service_receives_application](/assets/2017-02-06/service_receives_application.jpg)
 

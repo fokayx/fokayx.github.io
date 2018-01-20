@@ -8,8 +8,8 @@ theme_settings:
   title: KKnow
   avatar: assets/img/fokayx.jpg
   favicon: assets/favicon.ico
-  gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  gravatar: cd72112c5c9c32db12d0ed61408937ee
+  description: "fokayx's notes about programming, design and life" # used by search engines
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
@@ -27,9 +27,9 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "fokayx"
+  github: 'fokayx'
   google_plus:
-  instagram:
+  instagram: 'fokayx'
   keybase:
   linkedin:  # Full URL
   pinterest:
@@ -38,7 +38,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "fokayx"
+  twitter: 'fokayx'
   vimeo:
   wordpress:
   youtube:

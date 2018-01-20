@@ -36,3 +36,14 @@ body {
 .figure.highlight {
   margin: 0 1em 1em 1em;
 }
+
+ul {
+  margin-left: 5px;
+}
+
+ul>li {
+  list-style-position: inside;
+  text-indent: -1.25em;
+  padding-left: 1.25em;
+  text-indent: -29px;
+}

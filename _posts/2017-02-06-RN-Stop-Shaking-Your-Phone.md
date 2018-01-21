@@ -13,7 +13,7 @@ tag: [react_native, android, mac]
 
 打開 MAC 應用程式 (Applications) 中的 Automator，按下視窗左下角的 New Document，然後點選 Service 後，按右下角的 Choose
 
-![applications_automator_service](/assets/2017-02-06/applications_automator_service.jpg)
+![applications_automator_service](/assets/img/2017/02-06/applications_automator_service.jpg)
 
 ### 2. 設定 Run Shell Script
 
@@ -21,7 +21,7 @@ tag: [react_native, android, mac]
 
 `/usr/local/bin/adb shell input keyevent 82`
 
-![run_shell_script](/assets/2017-02-06/run_shell_script.jpg)
+![run_shell_script](/assets/img/2017/02-06/run_shell_script.jpg)
 
 如果你的 adb 存在別的地方，就必須更改一下指令的路徑。
 
@@ -41,7 +41,7 @@ tag: [react_native, android, mac]
 
 點擊二下 Service 名稱右邊的 `none`，然後按下你想要使用的快捷鍵組合，就是 `任意個 cmd / shift / control / option + 1 個字母或數字`，不要其他的快捷鍵設定相衝 (例如： cmd + c )，然後自己按得順手和記得住就可以了。
 
-![set_service_shortcut](/assets/2017-02-06/set_service_shortcut.gif)
+![set_service_shortcut](/assets/img/2017/02-06/set_service_shortcut.gif)
 
 這樣召喚 Developer Menu 的快捷鍵就設定完成，之後將 APP 佈署到手機上，開發的過程中按下自己設定的快捷鍵就可以呼叫 Developer Menu 進行 Reload 或其他各種設定。
 
@@ -58,7 +58,7 @@ tag: [react_native, android, mac]
 - 只在特定應用程式中使用 Service 快捷鍵
   在一開始 Automator 設定中，Service receives 如果是選擇 `any application`，在有提供 Services 的應用程式中都能用快捷鍵進行呼叫 Developer Menu，不過在某些應用程式中還是有可能失效。如果這邊選擇了某一個特定的應用程式，就表示設定的 Service 只在那個應用程式中可以使用。
 
-![service_receives_application](/assets/2017-02-06/service_receives_application.jpg)
+![service_receives_application](/assets/img/2017/02-06/service_receives_application.jpg)
 
 -----------------
 

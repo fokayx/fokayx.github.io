@@ -11,7 +11,7 @@ flex container 有以下的設定值：水平軸 (main axis) 與垂直軸 (cross
 
 flex 這個屬性分為二個部份，一個是針對父層 (parent, flex container)，一個是針對子層 (children, flex items)，flex 相關的屬性主要就是用來處理父與子的關係。
 
-![FlexRelation](/assets/2015-12-24/containerItems.jpg)
+![FlexRelation](/assets/img/2015/12-24/containerItems.jpg)
 
 ## Flex Container: Properties for the Parent
 
@@ -21,7 +21,7 @@ flex 這個屬性分為二個部份，一個是針對父層 (parent, flex contai
 
 Note：CSS columns 對 flex container 無感
 
-![FlexDisplay](/assets/2015-12-24/flex-display.jpg)
+![FlexDisplay](/assets/img/2015/12-24/flex-display.jpg)
 
 ```css
 .container {
@@ -33,7 +33,7 @@ Note：CSS columns 對 flex container 無感
 
 flex-direction 屬性設定 flex container 中內容項目的排列方式與方向：
 
-![FlexDirection](/assets/2015-12-24/flex-direction.jpg)
+![FlexDirection](/assets/img/2015/12-24/flex-direction.jpg)
 
 
 ```css
@@ -50,7 +50,7 @@ flex-direction 屬性設定 flex container 中內容項目的排列方式與方�
 
 flex items 預設為一直線的排列填滿 flex container，使用 flex-wrap 屬性可以讓 flex items 在有需要的時候自動換行。
 
-![FlexWrap](/assets/2015-12-24/flex-wrap.jpg)
+![FlexWrap](/assets/img/2015/12-24/flex-wrap.jpg)
 
 ```css
 .container {
@@ -78,7 +78,7 @@ flex-flow: flex-direction | flex-wrap
 
 justify-content 用於設定 flex items 對 flex container 的水平端點 (main start/ main end) 作對齊的方式
 
-![justifyContent](/assets/2015-12-24/justify-content.jpg)
+![justifyContent](/assets/img/2015/12-24/justify-content.jpg)
 
 ```css
 .container {
@@ -96,7 +96,7 @@ justify-content 用於設定 flex items 對 flex container 的水平端點 (main
 
 align-items 用於設定 flex-items 對 flex container 的垂直端點 (cross start/ cross end) 作對齊的方式
 
-![alignItems](/assets/2015-12-24/align-items.jpg)
+![alignItems](/assets/img/2015/12-24/align-items.jpg)
 
 ```css
 .container {
@@ -114,7 +114,7 @@ align-items 用於設定 flex-items 對 flex container 的垂直端點 (cross st
 
 align-content 用於多行內容對齊，align-items 是處理 flex container 內單行元素的對齊。
 
-![alignContent](/assets/2015-12-24/align-content.jpg)
+![alignContent](/assets/img/2015/12-24/align-content.jpg)
 
 Note：只有一行時，這個屬性沒有作用；
 
@@ -141,7 +141,7 @@ order 屬性用來控制 flex items 出現在 flex container 的順序。數字�
 
 下圖中 `4` 在 HTML 的結構上是排於 `3` 之後，應該為圖中 Original 的排列次序；在 flex item 上加了 `order` 屬性就可以更改原本顯示的順序。
 
-![itemOrder](/assets/2015-12-24/item-order.jpg)
+![itemOrder](/assets/img/2015/12-24/item-order.jpg)
 
 ```css
 .item {
@@ -183,7 +183,7 @@ flex-basis 是 flex item 的基本大小，預設值為 0，未設值時會直�
 
 flex 集合 `flex-grow`、`flex-shrink`、`flex-basis` 三個屬性，flex-shrink 和 flex-basis 是可以省略不設值的，預設值為 `0 1 auto`，建議使用 flex 集中一次設定。
 
-![flexGrowShrink](/assets/2015-12-24/flex-grow-shrink.jpg)
+![flexGrowShrink](/assets/img/2015/12-24/flex-grow-shrink.jpg)
 
 ```css
 .item {
@@ -195,7 +195,7 @@ flex 集合 `flex-grow`、`flex-shrink`、`flex-basis` 三個屬性，flex-shrin
 
 align-self 可針對個別的 flex item 設定對齊方式，改變 flex containter 原先的 align-items 的設定。
 
-![alignSelf](/assets/2015-12-24/align-self.jpg)
+![alignSelf](/assets/img/2015/12-24/align-self.jpg)
 
 ```css
 .item {

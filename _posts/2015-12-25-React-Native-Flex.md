@@ -67,7 +67,7 @@ var styles = {
 
 flex items 在 flex container 中的排列方向。
 
-![flexDirection](/assets/2015-12-25/flex-direction.jpg)
+![flexDirection](/assets/img/2015/12-25/flex-direction.jpg)
 
 ```javascript
 container: {
@@ -82,7 +82,7 @@ container: {
 
 flex items 在 flex container 中是否換行排列。
 
-![flexWrap](/assets/2015-12-25/flex-wrap.jpg)
+![flexWrap](/assets/img/2015/12-25/flex-wrap.jpg)
 
 ```javascript
 conatiner: {
@@ -98,7 +98,7 @@ conatiner: {
 
 flex items 對 flex container 水平軸的對齊方式。
 
-![justifyContent](/assets/2015-12-25/justify-content.jpg)
+![justifyContent](/assets/img/2015/12-25/justify-content.jpg)
 
 ```javascript
 container: {
@@ -116,7 +116,7 @@ container: {
 
 flex items 對 flex container 垂直軸的對齊方式。
 
-![alignItems](/assets/2015-12-25/align-items.jpg)
+![alignItems](/assets/img/2015/12-25/align-items.jpg)
 
 ```javascript
 container: {
@@ -134,7 +134,7 @@ container: {
 alignSelf 是設定在 flex items 上，用於改變 flex container 所設定的
 alignItems 的屬性。出列，勇敢做自己。
 
-![alignSelf](/assets/2015-12-25/align-self.jpg)
+![alignSelf](/assets/img/2015/12-25/align-self.jpg)
 
 ```javascript
 items: {
@@ -151,7 +151,7 @@ items: {
 
 flex 是用於讓 flex item 針對 flex container 所提供的空間，進行比例分配。
 
-![flex](/assets/2015-12-25/flex.jpg)
+![flex](/assets/img/2015/12-25/flex.jpg)
 
 ```javascript
 itemA: {

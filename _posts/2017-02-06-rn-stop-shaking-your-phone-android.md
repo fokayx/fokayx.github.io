@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React Native：停止搖晃你的手機啦!
+title: React Native：停止搖晃你的手機啦 - Android 篇
 feature-img: "assets/img/pexels/desk-messy.jpeg"
 thumbnail: "assets/img/thumbnails/desk-messy.jpeg"
 tag: [react_native, android, mac]

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: GitHub page 讓網站免費上線
-tag: [GitHub_page, SourceTree]
+title: GitHub pages 讓網站免費上線
+tag: [GitHub_pages, SourceTree, GitHub, Git]
 feature-img: "assets/img/2018/02-22/github_5xMei.jpg"
 thumbnail: "assets/img/thumbnails/2018/02_22_github_5xMei.jpg"
 ---
 
-GitHub 有提供一個 [GitHub page] 的免費服務，很適合拿來當靜態網站伺服器，例如：個人專頁或是專案官網，免費、設定簡便、安全性還不錯，缺點是只能放一些靜態內容的頁面，使用 php、java 需要資料處理什麼的這邊沒有支援。
+GitHub 有提供一個 [GitHub pages] 的免費服務，很適合拿來當靜態網站伺服器，例如：個人專頁或是專案官網，免費、設定簡便、安全性還不錯，缺點是只能放一些靜態內容的頁面，使用 php、java 需要資料處理什麼的這邊沒有支援。
 
 如果你想了解一下 Git 是何物的話，可以先看看 [你今天 Git 了嗎？] 或者你有聽說過 Git，想知道怎麼安裝和初始化設定的話，可以參考 [Git 初始化，完全新手設定包]。
 

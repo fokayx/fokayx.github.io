@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub Pages + Jekyll 快速把 Markdown 文檔變成部落格
-tag: [GitHub_pages, Jekyll, Markdown]
+tag: [GitHub_pages, Jekyll, Markdown, Git]
 ---
 
 獻身給程式之後，有時會寫一些程式的新手文，因為是程式相關的文章，難免會有程式碼的片段，當時為了要在文章中包藏程式碼，開始使用 Markdown 語法格式寫東西。

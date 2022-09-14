@@ -9,12 +9,12 @@ theme_settings:
   avatar: assets/img/fokayx.jpg
   favicon: assets/favicon.ico
   gravatar: cd72112c5c9c32db12d0ed61408937ee
-  description: "fokayx's notes about programming, design and life" # used by search engines
+  description: "fokayx's notes about camping, programming, design and life" # used by search engines
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>OK 好</p>
-  header_text_feature_image: assets/img/pexels/RG_NameSticker-19.png
+     <p></p>
+  header_text_feature_image: assets/img/pexels/chishang.png
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
@@ -24,7 +24,7 @@ theme_settings:
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: 'fokayx'
   flickr:
   gitlab:
   github: 'fokayx'
@@ -38,7 +38,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: 'fokayx'
+  twitter:
   vimeo:
   wordpress:
   youtube:

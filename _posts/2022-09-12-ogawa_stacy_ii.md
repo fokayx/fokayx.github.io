@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ogawa Stacy II 小巧 Dome 型寢室帳_機車露營好物推薦_01
-tag: [ogawa, stacy ii, tent, 機車露營]
+tag: [ogawa, stacy ii, tent, 機車露營, 野雞車]
 feature-img: "assets/img/2022/09_12/stacy_ii_04.jpg"
 thumbnail: "assets/img/thumbnails/2022/09_12_stacy_ii.jpg"
 ---
